@@ -1,0 +1,35 @@
+# Routing main file MEKONG BASIN
+# NAME OF FLOW DIRECTION FILE
+../../RoutingSetup/flowdirection.txt
+# NAME OF VELOCITY FILE
+.false.
+1.2
+# NAME OF DIFF FILE
+.false.
+800
+# NAME OF XMASK FILE
+.false.
+12500
+# NAME OF FRACTION FILE
+.false.
+1.0
+# NAME OF STATION FILE
+../../RoutingSetup/stations.txt
+# PATH OF INPUT FILES AND PRECISION
+../../RoutingSetup/input/fluxes_
+4
+# PATH OF OUTPUT FILES
+../../Results/
+# RESERVOIR LOCATION
+../../RoutingSetup/reservoirlocation.txt
+# RESERVOIR PARAMETERS
+../../Reservoirs/
+# YEAR AND MONTH OF MODEL OUTPUT TO ROUTE & ROUTED OUTPUT TO WRITE
+2040 1 2049 12
+2040 1 2049 12
+# NAME OF UNIT HYDROGRAPH FILE
+../../RoutingSetup/UH.all
+# Simulation Mode: True: Run Step-by-Step Mode; False: Run Batch Mode for all Steps
+.false.
+# Start Day and Current Simulation Day (for STEPBYSTEP Version)
+2040 1 1 2040 3 31
